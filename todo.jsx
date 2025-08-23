@@ -32,6 +32,15 @@ export default function TodoPage() {
           />
         </div>
         <div>
+	  <label className="block">Item UUID:</label>
+	  <input
+	    type="text"
+	    value={itemUUID}
+	    onChange={(e) => setItemUUID(e.target.value)}
+	    className="border p-2 w-full"
+	  />
+	</div>
+        <div>
   	   <label className="block">Item ID:</label>
   	   <input
 	    type="text"
